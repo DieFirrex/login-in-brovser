@@ -14,37 +14,12 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(584, 430)
+        MainWindow.resize(602, 569)
         MainWindow.setStyleSheet("background-color: #524b4b;")
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
-        self.pushButton = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton.setGeometry(QtCore.QRect(140, 280, 311, 61))
-        font = QtGui.QFont()
-        font.setPointSize(22)
-        self.pushButton.setFont(font)
-        self.pushButton.setStyleSheet("QPushButton{\n"
-"    border-radius: 6px;\n"
-"    background-color: #7d7a7a;\n"
-"    border: 2px solid #fc8383;\n"
-"    color: white;\n"
-"}\n"
-"\n"
-"QPushButton::hover{\n"
-"    border-radius: 6px;\n"
-"    background-color: #fc8383;\n"
-"    color: black;\n"
-"}\n"
-"\n"
-"QPushButton::pressed{\n"
-"    border-radius: 6px;\n"
-"    background-color: #ff4545;\n"
-"    color: black;\n"
-"}\n"
-"")
-        self.pushButton.setObjectName("pushButton")
         self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(20, 80, 541, 31))
+        self.label.setGeometry(QtCore.QRect(10, 70, 581, 31))
         font = QtGui.QFont()
         font.setPointSize(13)
         self.label.setFont(font)
@@ -53,7 +28,7 @@ class Ui_MainWindow(object):
         self.label.setAlignment(QtCore.Qt.AlignCenter)
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(self.centralwidget)
-        self.label_2.setGeometry(QtCore.QRect(130, 20, 331, 41))
+        self.label_2.setGeometry(QtCore.QRect(140, 10, 331, 41))
         font = QtGui.QFont()
         font.setPointSize(22)
         self.label_2.setFont(font)
@@ -62,7 +37,7 @@ class Ui_MainWindow(object):
         self.label_2.setAlignment(QtCore.Qt.AlignCenter)
         self.label_2.setObjectName("label_2")
         self.lineEdit = QtWidgets.QLineEdit(self.centralwidget)
-        self.lineEdit.setGeometry(QtCore.QRect(80, 130, 421, 41))
+        self.lineEdit.setGeometry(QtCore.QRect(90, 120, 421, 41))
         font = QtGui.QFont()
         font.setPointSize(12)
         self.lineEdit.setFont(font)
@@ -72,7 +47,7 @@ class Ui_MainWindow(object):
         self.lineEdit.setText("")
         self.lineEdit.setObjectName("lineEdit")
         self.lineEdit_2 = QtWidgets.QLineEdit(self.centralwidget)
-        self.lineEdit_2.setGeometry(QtCore.QRect(80, 200, 421, 41))
+        self.lineEdit_2.setGeometry(QtCore.QRect(90, 170, 421, 41))
         font = QtGui.QFont()
         font.setPointSize(12)
         self.lineEdit_2.setFont(font)
@@ -81,7 +56,7 @@ class Ui_MainWindow(object):
 "color: black;")
         self.lineEdit_2.setObjectName("lineEdit_2")
         self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_2.setGeometry(QtCore.QRect(190, 370, 211, 51))
+        self.pushButton_2.setGeometry(QtCore.QRect(140, 320, 311, 51))
         font = QtGui.QFont()
         font.setPointSize(24)
         self.pushButton_2.setFont(font)
@@ -106,9 +81,9 @@ class Ui_MainWindow(object):
 "")
         self.pushButton_2.setObjectName("pushButton_2")
         self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_3.setGeometry(QtCore.QRect(410, 370, 171, 51))
+        self.pushButton_3.setGeometry(QtCore.QRect(140, 500, 311, 51))
         font = QtGui.QFont()
-        font.setPointSize(13)
+        font.setPointSize(14)
         self.pushButton_3.setFont(font)
         self.pushButton_3.setStyleSheet("QPushButton{\n"
 "    border-radius: 6px;\n"
@@ -132,9 +107,9 @@ class Ui_MainWindow(object):
         self.pushButton_3.setIconSize(QtCore.QSize(20, 20))
         self.pushButton_3.setObjectName("pushButton_3")
         self.pushButton_4 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_4.setGeometry(QtCore.QRect(0, 370, 181, 51))
+        self.pushButton_4.setGeometry(QtCore.QRect(140, 440, 311, 51))
         font = QtGui.QFont()
-        font.setPointSize(13)
+        font.setPointSize(14)
         self.pushButton_4.setFont(font)
         self.pushButton_4.setStyleSheet("QPushButton{\n"
 "    border-radius: 6px;\n"
@@ -156,6 +131,57 @@ class Ui_MainWindow(object):
 "}\n"
 "")
         self.pushButton_4.setObjectName("pushButton_4")
+        self.pushButton_5 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_5.setGeometry(QtCore.QRect(140, 380, 311, 51))
+        font = QtGui.QFont()
+        font.setPointSize(14)
+        self.pushButton_5.setFont(font)
+        self.pushButton_5.setStyleSheet("QPushButton{\n"
+"    border-radius: 6px;\n"
+"    background-color: #7d7a7a;\n"
+"    border: 2px solid #fc8383;\n"
+"    color: white;\n"
+"}\n"
+"\n"
+"QPushButton::hover{\n"
+"    border-radius: 6px;\n"
+"    background-color: #fc8383;\n"
+"    color: black;\n"
+"}\n"
+"\n"
+"QPushButton::pressed{\n"
+"    border-radius: 6px;\n"
+"    background-color: #ff4545;\n"
+"    color: black;\n"
+"}\n"
+"")
+        self.pushButton_5.setIconSize(QtCore.QSize(30, 30))
+        self.pushButton_5.setObjectName("pushButton_5")
+        self.pushButton = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton.setGeometry(QtCore.QRect(140, 250, 311, 61))
+        font = QtGui.QFont()
+        font.setPointSize(22)
+        self.pushButton.setFont(font)
+        self.pushButton.setStyleSheet("QPushButton{\n"
+"    border-radius: 6px;\n"
+"    background-color: #7d7a7a;\n"
+"    border: 2px solid #fc8383;\n"
+"    color: white;\n"
+"}\n"
+"\n"
+"QPushButton::hover{\n"
+"    border-radius: 6px;\n"
+"    background-color: #fc8383;\n"
+"    color: black;\n"
+"}\n"
+"\n"
+"QPushButton::pressed{\n"
+"    border-radius: 6px;\n"
+"    background-color: #ff4545;\n"
+"    color: black;\n"
+"}\n"
+"")
+        self.pushButton.setObjectName("pushButton")
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
@@ -164,7 +190,6 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.pushButton.setText(_translate("MainWindow", "pushButton"))
         self.label.setText(_translate("MainWindow", "label"))
         self.label_2.setText(_translate("MainWindow", "label_2"))
         self.lineEdit.setPlaceholderText(_translate("MainWindow", "lineEdit"))
@@ -172,6 +197,8 @@ class Ui_MainWindow(object):
         self.pushButton_2.setText(_translate("MainWindow", "pushButton_2"))
         self.pushButton_3.setText(_translate("MainWindow", "PushButton"))
         self.pushButton_4.setText(_translate("MainWindow", "PushButton"))
+        self.pushButton_5.setText(_translate("MainWindow", "PushButton"))
+        self.pushButton.setText(_translate("MainWindow", "pushButton"))
 
 
 if __name__ == "__main__":
