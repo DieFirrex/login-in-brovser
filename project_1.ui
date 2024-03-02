@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>584</width>
-    <height>430</height>
+    <width>602</width>
+    <height>569</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,51 +17,12 @@
    <string notr="true">background-color: #524b4b;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>140</x>
-      <y>280</y>
-      <width>311</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>22</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QPushButton{
-	border-radius: 6px;
-	background-color: #7d7a7a;
-	border: 2px solid #fc8383;
-	color: white;
-}
-
-QPushButton::hover{
-	border-radius: 6px;
-	background-color: #fc8383;
-	color: black;
-}
-
-QPushButton::pressed{
-	border-radius: 6px;
-	background-color: #ff4545;
-	color: black;
-}
-</string>
-    </property>
-    <property name="text">
-     <string>pushButton</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>80</y>
-      <width>541</width>
+      <x>10</x>
+      <y>70</y>
+      <width>581</width>
       <height>31</height>
      </rect>
     </property>
@@ -86,8 +47,8 @@ QPushButton::pressed{
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>20</y>
+      <x>140</x>
+      <y>10</y>
       <width>331</width>
       <height>41</height>
      </rect>
@@ -113,8 +74,8 @@ QPushButton::pressed{
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>130</y>
+      <x>90</x>
+      <y>120</y>
       <width>421</width>
       <height>41</height>
      </rect>
@@ -139,8 +100,8 @@ color: black;</string>
    <widget class="QLineEdit" name="lineEdit_2">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>200</y>
+      <x>90</x>
+      <y>170</y>
       <width>421</width>
       <height>41</height>
      </rect>
@@ -162,9 +123,9 @@ color: black;</string>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>370</y>
-      <width>211</width>
+      <x>140</x>
+      <y>320</y>
+      <width>311</width>
       <height>51</height>
      </rect>
     </property>
@@ -201,15 +162,15 @@ QPushButton::pressed{
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>370</y>
-      <width>171</width>
+      <x>140</x>
+      <y>500</y>
+      <width>311</width>
       <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>13</pointsize>
+      <pointsize>14</pointsize>
      </font>
     </property>
     <property name="styleSheet">
@@ -246,15 +207,15 @@ QPushButton::pressed{
    <widget class="QPushButton" name="pushButton_4">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>370</y>
-      <width>181</width>
+      <x>140</x>
+      <y>440</y>
+      <width>311</width>
       <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>13</pointsize>
+      <pointsize>14</pointsize>
      </font>
     </property>
     <property name="styleSheet">
@@ -280,6 +241,90 @@ QPushButton::pressed{
     </property>
     <property name="text">
      <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>380</y>
+      <width>311</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-radius: 6px;
+	background-color: #7d7a7a;
+	border: 2px solid #fc8383;
+	color: white;
+}
+
+QPushButton::hover{
+	border-radius: 6px;
+	background-color: #fc8383;
+	color: black;
+}
+
+QPushButton::pressed{
+	border-radius: 6px;
+	background-color: #ff4545;
+	color: black;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>250</y>
+      <width>311</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-radius: 6px;
+	background-color: #7d7a7a;
+	border: 2px solid #fc8383;
+	color: white;
+}
+
+QPushButton::hover{
+	border-radius: 6px;
+	background-color: #fc8383;
+	color: black;
+}
+
+QPushButton::pressed{
+	border-radius: 6px;
+	background-color: #ff4545;
+	color: black;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>pushButton</string>
     </property>
    </widget>
   </widget>
